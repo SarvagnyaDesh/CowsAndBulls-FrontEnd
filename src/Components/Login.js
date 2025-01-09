@@ -63,6 +63,18 @@ const Login = () => {
                     .login-button:hover {
                         background-color: #45a049;
                     }
+                    @media (max-width: 600px) {
+                        .login-box {
+                            padding: 1rem;
+                            max-width: 90%;
+                        }
+                        .login-title {
+                            font-size: 1.5rem;
+                        }
+                        .login-input, .login-button {
+                            font-size: 1rem;
+                        }
+                    }
                 `}
             </style>
             <div className="login-box">

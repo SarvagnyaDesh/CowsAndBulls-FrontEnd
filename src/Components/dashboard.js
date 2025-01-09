@@ -95,6 +95,17 @@ const Dashboard = () => {
                     .join-button:hover {
                         background-color: #1a1a1a;
                     }
+                    @media (max-width: 600px) {
+                        .dashboard-container {
+                            flex-direction: column;
+                            gap: 1rem;
+                        }
+                        .dashboard-button {
+                            width: 200px;
+                            height: 200px;
+                            font-size: 1.2rem;
+                        }
+                    }
                 `}
             </style>
             <div style={{ position: 'relative' }}>

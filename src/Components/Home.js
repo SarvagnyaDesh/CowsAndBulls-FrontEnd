@@ -169,6 +169,31 @@ const Home = () => {
                         border-bottom: 3px solid white !important;
                         font-size: 1.2rem;
                     }
+                    @media (max-width: 600px) {
+                        .home-title {
+                            font-size: 2rem;
+                        }
+                        .secret-codes-container {
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        .secret-code-input {
+                            width: 40px;
+                            height: 40px;
+                            font-size: 1.2rem;
+                        }
+                        .tables-container {
+                            flex-direction: column;
+                            gap: 2rem;
+                        }
+                        .table-wrapper {
+                            padding: 1rem;
+                        }
+                        .table td, .table th {
+                            padding: 0.75rem;
+                            font-size: 1rem;
+                        }
+                    }
                 `}
             </style>
             <div className="home-container">
